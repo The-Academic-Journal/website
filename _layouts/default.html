@@ -39,9 +39,7 @@
     <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container">
             <a class="navbar-brand" href="{{ site.baseurl }}/index.html"><strong><span
-                        style="color: #EDCA1A; -webkit-text-stroke: 1px black;">the</span><span
-                        style="color:#B53535; -webkit-text-stroke: 1px black;">Campus</span><span
-                        style="color:#0D2A54; -webkit-text-stroke: 1px black;">Chronicle</span></strong></a>
+                        style="color: #0D2A54; -webkit-text-stroke: 1px black;">The Journal</span></strong></a>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02"
                 aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -86,17 +84,10 @@
             <div class="row align-items-center justify-content-between">
                 <div>
                     <span class="navbar-brand mr-2 mb-0"><strong><span
-                                style="color: #EDCA1A; -webkit-text-stroke: 1px black;">the</span><span
-                                style="color:#B53535; -webkit-text-stroke: 1px black;">Campus</span><span
-                                style="color:#0D2A54; -webkit-text-stroke: 1px black;">Chronicle</span></strong></span>
+                                style="color:#0D2A54; -webkit-text-stroke: 1px black;">The Journal</span></strong></span>
                     <span>Copyright ©
                         <script>document.write(new Date().getFullYear())</script>.
                     </span>
-
-                    <!--  Github Repo Star Btn-->
-                    <a class="text-dark ml-1" target="_blank"
-                        href="https://github.com/AkeBoss-tech/theCampusChronicle"><i class="fab fa-github"></i> Check us
-                        out on Github</a>
 
                 </div>
                 <div>
@@ -112,9 +103,7 @@
                     <ul class="list-unstyled">
                         <li><a href="{{site.baseurl}}/about.html">About Us</a></li>
                         <li><a href="{{site.baseurl}}/contact.html">Contact Us</a></li>
-                        <li><a href="{{site.baseurl}}/linktree.html">Link Tree</a></li>
                         <li><a href="{{site.baseurl}}/privacy-policy.html">Privacy Policy</a></li>
-                        <li><a href="{{site.baseurl}}/terms.html">Terms of Use</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
@@ -123,7 +112,6 @@
                         {% for category in site.categories %}
                         <li><a href="{{site.baseurl}}/{{ category[0] | slugify }}">{{ category[0] }}</a></li>
                         {% endfor %}
-                        <li><a href="{{site.baseurl}}/alumni">Alumni</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">

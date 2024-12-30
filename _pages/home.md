@@ -1,16 +1,17 @@
 ---
 title: "The Campus Chronicle"
 layout: default
+permalink: /
 pagination:
   enabled: true
   collection: posts
   permalink: /page/:num/
-  per_page: 20
+  per_page: 10
   sort_field: date
   sort_reverse: true
   trail:
-    before: 1 # The number of links before the current page
-    after: 3 # The number of links after the current page
+    before: 2 # The number of links before the current page
+    after: 2 # The number of links after the current page
 description: "A newspaper run by UCVTS Students."
 ---
 
