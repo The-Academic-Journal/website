@@ -1,4 +1,4 @@
-<h1 align="center">The Campus Chronicle</h1>
+<h1 align="center">The Journal</h1>
 
 <img src="front_page.png" align="center">
 
