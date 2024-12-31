@@ -4,7 +4,14 @@ title:  "An Extravagant Unveiling of Crumbling Foundations: the Drastic Hit on t
 author: [ akash ]
 categories: [ News ]
 image: assets/images/articles_2024/edition_2/china.jpg
+download: true
+path: _posts/2024/edition_2/2024-05-13-butterfly-effect.md
+open_access: false
 tags: [ ]
+abstract: |
+  Amongst the flurry of activity in the world, there lies a fascinating theory — the butterfly effect. It is unto a shadow lurking in the corners of the room, everpresent.
+  
+  The term "butterfly effect" refers to a theory that suggests that a small action can lead to significant changes through a chain of events. The moniker was coined from the frequent example used to demonstrate this idea which is the fact that a single flutter of a butterfly’s wings can eventually give rise to a tornado...
 ---
 
 "Because China is now the No. 1 commodity consumer in the world, the impact [of the debt crisis] is going to be pretty, pretty big" -Larry Hu, Hong Kong based chief China economist for Macquarie (Goodman).

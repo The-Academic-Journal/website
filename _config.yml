@@ -22,16 +22,16 @@ authors:
     akash:
       name:           Akash Dubey
       site:           https://akeboss-tech.github.io/
-      role:           Layout Editor
-      bio:            "Hi, I am Akash, the webmaster of this website! I like writing code and newspaper articles!"
+      role:           Senior Researcher
+      bio:            "Hi, I am Akash, the webmaster of this website! I like writing code and articles!"
       email:          adubey@ucvts.org
-      school:         AIT
+      school:         Rutgers University
     alan:
       name:           Alan Ostrovsky
-      role:           Opinion Editor
+      role:           Junior Researcher
       bio:            "Hi, I am Alan Ostrovsky!"
       email:          no_reply@ucvts.org
-      school:         AIT
+      school:         Stevens University
 
 # Defaults
 defaults:

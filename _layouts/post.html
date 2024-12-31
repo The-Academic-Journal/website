@@ -8,6 +8,15 @@ layout: default
   }
 </script>
 	
+<style>
+/* add vertical line to left of abstract-container */
+
+.abstract-content {
+	border-left: 5px solid #5e5e5e;
+}
+
+</style>
+
 <div class="container">
 	<div class="article-container mb-4">
 		<div class="article-card">
@@ -67,8 +76,16 @@ layout: default
 	<div class="row justify-content-center">
         
 		<div class="col-md-12 col-lg-9">
+            {% if page.abstract %}
+				<div class="abstract-container d-flex align-items-start mb-4">
+					<div class="abstract-content p-4">
+						<h4 class="abstract-title mb-3 text-uppercase">Abstract</h4>
+						<p class="abstract-text">{{ page.abstract | markdownify }}</p>
+					</div>
+				</div>
+			{% endif %}
             
-            <!-- Article -->
+			<!-- Article -->
 			<p class="article-post">                
 			{{ content }}                
 			</p>
@@ -87,7 +104,7 @@ layout: default
 			<div class="border p-5 bg-lightblue">
 				<div class="row justify-content-between">
 					<div class="col-md-6 mb-2 mb-md-0">
-						<h3 class="font-weight-bold">Join Newsletter</h3>
+						<h4 class="font-weight-bold">Join Newsletter</h4>
 						 Get the latest news right in your inbox. We never spam!
 					</div>
 					<div class="col-md-6">
@@ -111,7 +128,7 @@ layout: default
             
              <!-- Author Box -->
 
-				<!-- <h3 class="font-weight-bold mb-3">Written by</h3>
+				<!-- <h4 class="font-weight-bold mb-3">Written by</h4>
 				{% for author in page.author %}
 					{% assign writer = site.authors[author]  %}
 					
