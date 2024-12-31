@@ -4,8 +4,17 @@ title:  "The Butterfly Effect"
 author: [ phoebe ]
 categories: [ News ]
 image: assets/images/articles_2024/edition_2/butterfly.jpg
+download: true
+path: _posts/2024/edition_2/2024-05-13-butterfly-effect.md
+open_access: true
 tags: [ ]
 ---
+
+> ## Abstract
+> Amongst the flurry of activity in the world, there lies a fascinating theory — the butterfly effect. It is unto a shadow lurking in the corners of the room, everpresent.
+> 
+> The term "butterfly effect" refers to a theory that suggests that a small action can lead to significant changes through a chain of events. The moniker was coined from the frequent example used to demonstrate this idea which is the fact that a single flutter of a butterfly’s wings can eventually give rise to a tornado. Coined by meteorologist Edward Lorenz, he observed that small, unimportant changes to his computer weather model would result in various outcomes. A key takeaway he gathered was that although a deed may seem insignificant, no one knows whether it could potentially create great problems in the future.
+
 Amongst the flurry of activity in the world, there lies a fascinating theory — the butterfly effect. It is unto a shadow lurking in the corners of the room, everpresent.
 
 The term "butterfly effect" refers to a theory that suggests that a small action can lead to significant changes through a chain of events. The moniker was coined from the frequent example used to demonstrate this idea which is the fact that a single flutter of a butterfly’s wings can eventually give rise to a tornado. Coined by meteorologist Edward Lorenz, he observed that small, unimportant changes to his computer weather model would result in various outcomes. A key takeaway he gathered was that although a deed may seem insignificant, no one knows whether it could potentially create great problems in the future.
