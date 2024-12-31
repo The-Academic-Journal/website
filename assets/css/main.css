@@ -40,8 +40,12 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Segoe UI", "Helvetica Neue", "Arial";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  --font-family-sans-serif: Open Sans,icomoon,sans-serif;
+  --font-family-monospace: Open Sans,icomoon, monospace; 
+
+  --primary: #007bff;
+  --primary-darker: #0056b3;
+}
 
 *,
 *::before,
@@ -49,7 +53,7 @@
   box-sizing: border-box; }
 
 html {
-  font-family: sans-serif;
+  font-family: Open Sans,icomoon,sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -62,44 +66,9 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
-.loop-card-bigger {
-  transition: transform 1s;
-}
-
-.loop-card-bigger:hover{
-  transform: scale(1.1);
-}
-
-.editor-in-chief-card {
-  background-color: white;
-  color: black;
-}
-
-.editor-in-chief-card:hover {
-  background-color: #B53535;
-  color: white;
-}
-
-.layout-editor-card {
-  background-color: white;
-}
-
-.layout-editor-card:hover {
-  background-color: #EDCA1A;
-}
-
-.opinion-editor-card {
-  background-color: white;
-}
-
-.opinion-editor-card:hover {
-  background-color: #0D2A54;
-  color: white;
-}
-
 body {
   margin: 0;
-  font-family: "Segoe UI", "Helvetica Neue", "Arial";
+  font-family: Open Sans,icomoon,sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6;
@@ -182,12 +151,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #03a87c;
+  color: var(--primary);
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #025d45;
+    color: var(--primary-darker);
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -2508,7 +2477,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #03a87c;
+  color: var(--primary);
   background-color: transparent; }
   .btn-link:hover {
     color: #025d45;
@@ -3808,12 +3777,12 @@ input[type="button"].btn-block {
   padding: 0.55rem .8rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #03a87c;
+  color: var(--primary);
   background-color: #fff;
   border: 1px solid #dee2e6; }
   .page-link:hover {
     z-index: 2;
-    color: #025d45;
+    color: var(--primary-darker);
     text-decoration: none;
     background-color: #e9ecef;
     border-color: #dee2e6; }
@@ -3836,8 +3805,9 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #03a87c;
-  border-color: #03a87c; }
+  background-color: var(--primary);
+  border-color: var(--primary); 
+}
 
 .page-item.disabled .page-link {
   color: #6c757d;

@@ -1,0 +1,54 @@
+---
+title: "The Campus Chronicle"
+layout: default
+permalink: /
+pagination:
+  enabled: true
+  collection: posts
+  permalink: /page/:num/
+  per_page: 10
+  sort_field: date
+  sort_reverse: true
+  trail:
+    before: 2 # The number of links before the current page
+    after: 2 # The number of links after the current page
+description: "A newspaper run by UCVTS Students."
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+
+      <h2 class="font-weight-bold h3 title mb-4">Welcome to The Journal</h2>
+      <p>THE JOURNAL is a highly respected digital library that hosts a vast collection of academic journals, books, and primary sources online. Founded in 1995, THE JOURNAL provides researchers, scholars, and students with access to a wide array of scholarly content across various disciplines, including the humanities, social sciences, and sciences. The platform is known for its user-friendly interface and robust search capabilities, making it easy for users to find and access the information they need. THE JOURNAL also offers tools for citation and annotation, enhancing the research experience. Institutions and individuals can subscribe to THE JOURNAL to gain access to its extensive database, which continues to grow through partnerships with publishers, libraries, and academic institutions worldwide. Whether for in-depth research or casual exploration, THE JOURNAL is an invaluable resource for anyone seeking high-quality, peer-reviewed content.      </p>
+
+      <h2 class="font-weight-bold h4 title">Articles</h2>
+      <!-- add a horizontal line -->
+	    <hr class="my-3 mb-4">
+      {% if page.pagination.enabled %}
+        {% assign postlist = paginator.posts %}
+      {% else %}
+        {% assign postlist = site.posts %}
+      {% endif %}
+
+      {% for post in postlist %}
+        {% if post.external_source == blank %}
+          {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
+        {% else %}
+          {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
+        {% endif %}
+        {% assign year = post.date | date: "%Y" %}
+        {% assign tags = post.tags | join: "" %}
+        {% assign categories = post.categories | join: "" %}
+
+        {% include main-loop-card.html %}
+
+      {% endfor %}
+
+      {% if page.pagination.enabled %}
+        {% include pagination.liquid %}
+      {% endif %}
+      
+    </div>
+  </div>
+</div>

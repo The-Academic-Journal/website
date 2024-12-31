@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "An Extravagant Unveiling of Crumbling Foundations: the Drastic Hit on the Chinese Real Estate Market"
-author: [ xing ]
+author: [ akash ]
 categories: [ News ]
 image: assets/images/articles_2024/edition_2/china.jpg
 tags: [ ]
