@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "An Inside View of Girls with Leadership Roles"
-author: [ sharika ]
+author: [ alan ]
 categories: [ News ]
 image: assets/images/articles_2024/edition_1/girl-leadership.png
 tags: [featured]

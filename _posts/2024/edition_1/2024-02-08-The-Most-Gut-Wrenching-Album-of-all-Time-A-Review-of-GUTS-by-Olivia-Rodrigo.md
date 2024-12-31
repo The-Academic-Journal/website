@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Most Gut-Wrenching Album of all Time? A Review of 'GUTS' by Olivia Rodrigo"
-author: [ audrey2, jaime ]
+author: [ akash ]
 categories: [ Arts and Entertainment ]
 image: assets/images/articles_2024/edition_1/gut.png
 tags: []

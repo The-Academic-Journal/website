@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fascinating Psychological Phenomena of the Human Mind "
-author: [ sharika ]
+author: [ akash ]
 categories: [ Science ]
 image: assets/images/articles_2024/edition_1/brain.png
 tags: [ ]

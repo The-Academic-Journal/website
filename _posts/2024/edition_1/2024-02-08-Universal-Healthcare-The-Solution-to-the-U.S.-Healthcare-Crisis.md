@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Solution to the U.S. Healthcare Crisis: For This Writer, It’s Universal"
-author: [ sydney ]
+author: [ alan ]
 categories: [Opinion]
 image: assets/images/articles_2024/edition_1/health.png
 tags: []
