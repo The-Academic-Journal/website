@@ -24,7 +24,6 @@ for author_name, author in authors_data.items():
     print("Bio:", author["bio"])
     print("Email:", author["email"])
     print("School:", author["school"])
-    print("Grade:", author["grade"])
 
     # Generate the author pages
     home = f'---\ntitle: "{author["name"]}"\nlayout: default\npermalink: "/author-{author["name"].lower().replace(" ", "-")}.html"\n---'

@@ -1,5 +1,15 @@
 <div class="article-container mb-4">
 	<div class="article-card">
+	  <!-- print title and whether it is open access -->
+	   <div>
+		<p class="text-muted font-weight-bold text-uppercase mb-2"> 
+			Article
+		</p>
+		{% if post.open_access %}
+		  <span class="badge badge-success">Open Access</span>
+		{% endif %}
+		
+	   </div>
 	  <h5 class="article-title font-weight-bold mb-2">
 		<a href="{{ site.baseurl }}{{ post.url }}" class="">
 		  {{ post.title }}
@@ -8,10 +18,10 @@
 	  <p class="article-authors mb-2">
 		{% if post.author.size == 1 %}
 		  {% assign poster = post.author[0] %}
-		  {{ site.authors[poster].name }}
+		  <a class="text-capitalize smoothscroll text-dark" href="{{site.baseurl}}/author-{{ site.authors[poster].name | slugify }}">{{ site.authors[poster].name }}</a>
 		{% else %}
 		  {% for author in post.author %}
-			{{ site.authors[author].name }}{% unless forloop.last %}, {% endunless %}
+		  <a class="text-capitalize smoothscroll text-dark" href="{{site.baseurl}}/author-{{ site.authors[poster].name | slugify }}">{{ site.authors[poster].name }}</a>{% unless forloop.last %}, {% endunless %}
 		  {% endfor %}
 		{% endif %}
 	  </p>
