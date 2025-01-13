@@ -53,11 +53,11 @@ layout: default
 	<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
 		<div class="text-center">
 			<div class="article-links">
-				<a href="{{ site.baseurl }}{{ page.url }}" class="btn btn-link p-0">Abstract</a>
+				<a href="{{ site.baseurl }}{{ page.url }}/#abstract" class="btn btn-link p-0">Abstract</a>
 				<span class="text-muted mx-1">|</span>
 				<a href="{{ site.baseurl }}{{ page.url }}" class="btn btn-link p-0">Full text</a>
 				<span class="text-muted mx-1">|</span>
-				<a href="{{ site.baseurl }}{{ page.url }}" class="btn btn-link p-0">References</a>
+				<a href="{{ site.baseurl }}{{ page.url }}/#references" class="btn btn-link p-0">References</a>
 				<span class="text-muted mx-1">|</span>
 				<a href="{{ site.baseurl }}{{ page.url }}" class="btn btn-link p-0">Request permissions</a>
 			  </div>
@@ -75,7 +75,7 @@ layout: default
         
 		<div class="col-md-12 col-lg-9">
             {% if page.abstract %}
-				<div class="abstract-container d-flex align-items-start mb-4">
+				<div class="abstract-container d-flex align-items-start mb-4" id="abstract">
 					<div class="abstract-content p-4">
 						<h4 class="abstract-title mb-3 text-uppercase">Abstract</h4>
 						<p class="abstract-text">{{ page.abstract | markdownify }}</p>
