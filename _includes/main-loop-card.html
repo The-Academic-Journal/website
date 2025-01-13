@@ -18,10 +18,10 @@
 	  <p class="article-authors mb-2">
 		{% if post.author.size == 1 %}
 		  {% assign poster = post.author[0] %}
-		  <a class="text-capitalize smoothscroll text-dark" href="{{site.baseurl}}/author-{{ site.authors[poster].name | slugify }}">{{ site.authors[poster].name }}</a>
+		  <span class="text-capitalize smoothscroll text-dark">{{ site.authors[poster].name }}</span>
 		{% else %}
 		  {% for author in post.author %}
-		  <a class="text-capitalize smoothscroll text-dark" href="{{site.baseurl}}/author-{{ site.authors[poster].name | slugify }}">{{ site.authors[poster].name }}</a>{% unless forloop.last %}, {% endunless %}
+		  <span class="text-capitalize smoothscroll text-dark">{{ site.authors[author].name }}</span>{% unless forloop.last %}, {% endunless %}
 		  {% endfor %}
 		{% endif %}
 	  </p>
