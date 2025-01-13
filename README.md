@@ -1,4 +1,4 @@
-<h1 align="center">The Journal</h1>
+<h1 align="center">Viewpoints & Reflections in Speech-Language and Psychological Sciences</h1>
 
 <img src="front_page.png" align="center">
 

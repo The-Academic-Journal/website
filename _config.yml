@@ -1,5 +1,5 @@
 # Site
-name: 'The Journal'
+name: 'Viewpoints & Reflections in Speech-Language and Psychological Sciences'
 description: "a journal for history."
 logo: 'assets/images/logo.jpeg'
 favicon: 'assets/images/favicon.ico'
@@ -33,6 +33,20 @@ authors:
       bio:            "Hi, I am Alan Ostrovsky!"
       email:          no_reply@ucvts.org
       school:         Stevens University
+
+    shivani:
+      name:           Shivani Raina
+      role:           Researcher
+      bio:            "Hi, I am Shivani Patel!"
+      email:
+      school:         Kean University
+
+    slpd:
+      name:           SLPD
+      role:           Researcher
+      bio:            "Hi, I am SLPD!"
+      email:
+      school:         Kean University
 
 # Defaults
 defaults:

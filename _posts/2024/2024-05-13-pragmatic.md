@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Pragmatic Issues in Developmental Research"
+author: [ shivani ]
+categories: [  ]
+download: true
+path: _posts/2024/edition_2/2024-05-13-butterfly-effect.md
+open_access: true
+tags: [ ]
+abstract: |
+  Developmental science comprises domains of knowledge that seek to understand and articulate inter- and intra- individual changes across the lifespan. As possibilities of seeking and knowing can vary, researchers, in context of a given data set, have often differed on the possibility of developmental occurrence. Initial concepts of development were based on mechanistic interpretations which separated phenomena as real and unreal. Contrary to the Cartesian notion, is the process relational paradigm which encompasses multiple ways and perspectives of understanding development (Bornstein & Lamb, 2015). Current developmental research comprises of quantitative, qualitative, and mixed method approaches to gain both observational and subjective understandings of theoretically based questions. The purpose of this paper is to highlight pragmatic issues related to aspects of developmental research and its implications on process relational paradigm. In context of this paper, pragmatic issues refer to concerns with generalizability, transferability, and subsequent applicability of developmental research in both quantitative, qualitative, and theoretical domains. 
+---
+
+## Quantitative Research         
+
+Quantitative research is based on positivistic premises and is therefore investigative and experimental in nature. Pragmatic issues related to quantitative research can apply to concepts of external validity. If the external validity of research is threatened by controlled settings, then the results of the research may show replication in natural settings (Bornstein & Lamb, 2015). Here the applicability of the research will be limited as the results may not replicate to contexts beyond those in the controlled settings and therefore such research may not be applicable to the real world.  Interaction of selection and treatment where research is only constrained to a limited sample can also lead to pragmatic issues as the results of the study may not be generalizable to the broader population. Another pragmatic issue can be related to the interaction of settings and treatment. If the results of the research are non-applicable to settings beyond those utilized in the experimental process, then the research is limited in terms of location. Pragmatic issues related to generalization can also impact developmental research if the results are limited to certain time periods. As pragmatic issues speak to the applicability of research in the real world, lack of generalizability of results can lead to applicational deficits.
+
+## Qualitative research
+
+Pragmatic issues in qualitative research can influence its ecological validity. For instance, if a researcher does not consider a certain context of an individual’s experience, then the results will remain non-transferable to that context of a person’s daily life. This will create a gap in the applicability of research thereby impacting its ecological validity. Another pragmatic issue can relate to the social contextual approach to understanding narratives (Bornstein & Lamb, 2015). This approach may not demonstrate transferability across history and time as what may be relevant to society today may not have been relevant in the past. Therefore, analyzing a narrative for themes based on a particular societal context may not be functionally applicable to the individual’s current or future contexts.
+
+## Process Relational Paradigm and Pragmatic Issues
+
+The purpose of developmental research is to investigate and understand the multi-dimensional and multidisciplinary influences on human development. Theories in the process relational paradigm support the bidirectional relationship between the individual and their environment and thereby facilitate the framework of developmental research. These theories known as Relational Developmental Systems (RDS) and at the conceptual core emphasize that human development is a function of the mutual influences between an individual and their context (Overton, 2014). Primary theories within this domain include Lerner’s developmental contextualism, Balte’s lifespan developmental theory, Brandtstädter’s action theory development, Elder’s life-course theory, Bronfenbrenner’s bioecological theory of developmental processes, Magnusson’s holistic person-context interaction theory (Bornstein & Lamb, 2015). Although these theories transcend the bifurcation of notional splits by facilitating all-encompassing multifaceted view on developmental sciences, some pragmatic issues may limit their applicational merit and cause an impact developmental research.
+
+RDS models stress that human development is a function of bidirectionality of relationships within multiple levels of various systems in an individual’s context (Wiley, 2019).  Developmental research, in this view, would need to be grounded in capturing the changing aspect of relationships within those multiple systems of environmental contexts surrounding an individual. Pragmatically, it would be impossible to follow every change that an individual goes through within multiple contexts of the environment. In this regard, the broader RDS model emphasizes multidisciplinary approaches in developmental research to document multi-tiered changes in the developmental process. However, even if a multidisciplinary approach were to be taken, it would still not eliminate the procedural tediousness of documenting long term change that can be systematically classified as development. Another pragmatic issue, linked with interdisciplinary approaches, may relate to ascribing causal possibilities to the impact of multi-systemic intervention in both inter- and intra- developmental processes. For instance, research in one domain may ascribe a developmental change to one set of contextual interventions, simultaneous research in another domain can ascribe that same developmental change to another category of contextual influences. This variedness of contextual change can make it cumbersome to track cross disciplinary research influences on developmental science.  
+
+<center>References</center> 
+
+Bornstein, M. H., & Lamb, M. E. (Eds.). (2015). *Developmental science: An advanced textbook*. Psychology Press.
+
+Overton, W. F. (2014). The process relational paradigm and relational-developmental-systems metamodel as context. *Research in Human Development*, 11, 323-331. https//doi.org/10.1080/15427609.2014.971549
+
+Wiley, J. C. (2019). Moral orientations in psychology: contrasting theoretical perspectives. *BMC Psychology*, 7(9), 1-6. https//doi.org/10.1186/s40359-019-0287-y
