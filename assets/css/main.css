@@ -3308,8 +3308,7 @@ input[type="button"].btn-block {
   padding-bottom: 0.68rem;
   margin-right: 1rem;
   font-size: 1.15rem;
-  line-height: inherit;
-  white-space: nowrap; }
+  line-height: inherit; }
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
 

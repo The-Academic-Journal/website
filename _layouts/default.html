@@ -30,17 +30,57 @@
 
     {% include tracking-header.html %}
 
+    <style>
+        .journal-title-wrapper {
+    text-align: center; /* Centers text horizontally */
+    width: 100%; /* Ensures it spans the full width */
+}
+
+.journal-title {
+    display: block;
+    font-size: 1.5rem; /* Adjust as necessary */
+    font-weight: bold;
+    word-wrap: break-word;
+    white-space: normal; /* Ensures wrapping */
+    margin: 0 auto; /* Centers block elements */
+}
+
+.journal-subtitle {
+    display: block;
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0 auto; /* Centers block elements */
+    color: #555;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stacks title above navbar */
+    align-items: center; /* Centers everything horizontally */
+    justify-content: center; /* Centers everything vertically */
+}
+
+
+    </style>
+
 
 </head>
 
 <body class="{% if page.url == " /" %} homefirstpage {% endif %}">
 
-    <!-- Navbar -->
-    <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="{{ site.baseurl }}/index.html"><strong><span
-                        style="color: var(--primary-darker); -webkit-text-stroke: 1px black;">Viewpoints & Reflections
-                        in Speech-Language and Psychological Sciences</span></strong></a>
+<!-- Navbar -->
+<!-- Navbar -->
+<nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container text-center">
+        <!-- Journal Title -->
+        <div class="journal-title-wrapper">
+            <span class="journal-title" style="color: var(--primary-darker); -webkit-text-stroke: 1px black;">
+                Viewpoints & Reflections in Speech-Language and Psychological Sciences
+            </span>
+        </div>
+
+        <!-- Navigation Links -->
+        <div>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02"
                 aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -54,7 +94,10 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
+
+
 
     <!-- Search Results -->
     <div id="lunrsearchresults">
@@ -100,30 +143,12 @@
             </div>
             <!-- Site Map -->
             <div class="row mt-3">
-                <div class="col-md-4">
+                <div class="col-md-12">
                     <h6 class="text-uppercase font-weight-bold">About</h6>
                     <ul class="list-unstyled">
                         <li><a class="text-light" href="{{site.baseurl}}/about.html">About Us</a></li>
                         <li><a class="text-light" href="{{site.baseurl}}/contact.html">Contact Us</a></li>
                         <li><a class="text-light" href="{{site.baseurl}}/privacy-policy.html">Privacy Policy</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h6 class="text-uppercase font-weight-bold">Categories</h6>
-                    <ul class="list-unstyled">
-                        {% for category in site.categories %}
-                        <li><a class="text-light" href="{{site.baseurl}}/{{ category[0] | slugify }}">{{ category[0]
-                                }}</a></li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h6 class="text-uppercase font-weight-bold">Tags</h6>
-                    <ul class="list-unstyled">
-                        {% for tag in site.tags %}
-                        <li><a class="text-light" href="{{site.baseurl}}/tags.html#{{ tag[0] | downcase }}">{{ tag[0]
-                                }}</a></li>
-                        {% endfor %}
                     </ul>
                 </div>
             </div>
