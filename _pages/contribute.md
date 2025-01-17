@@ -1,10 +1,10 @@
 ---
 title: "Contact"
-permalink: "/contribute"
+permalink: "/Contribute"
 ---
 
 <form action="https://formspree.io/f/{{site.formspree}}" method="POST">    
-<p class="mb-4">Please send your message to {{site.name}}. We will reply as soon as possible!</p>
+<p class="mb-4">For manuscript submission, please submit a request using the contact form below. We will reply as soon as possible!</p>
 <div class="form-group row">
 <div class="col-md-6">
 <input class="form-control" type="text" name="name" placeholder="Name*" required>
