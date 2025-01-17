@@ -1,8 +1,5 @@
 ---
 title: "About"
-layout: page-sidebar
 permalink: "/about.html"
-image: "front_page.png"
-comments: true
 ---
-Made with <i class="fa fa-heart text-danger"></i> by Viewpoints & Reflections in Speech-Language and Psychological Sciences [@the-academic-journal](https://github.com/The-Academic-Journal/website).
+Viewpoints in Speech-Language and Psychological Sciences (VSLPS) provides a critical platform to bridge the interconnected disciplines of communication sciences and psychology. This scholarly publication fosters interdisciplinary research for advancing holistic research and clinical care. Communication disorders often involve psychological components, such as anxiety, trauma, or emotional regulation challenges, making it essential to integrate these perspectives into assessment and intervention. By uniting research from both fields, the journal  highlights theoretical intersections as well as innovative, evidence-based practices that address both the communicative and psychological aspects of development. This publication also promotes cultural responsiveness and global relevance by exploring how culture, identity, and alternative epistemologies influence communication and psychological health. VSLPS advocates for inclusive, person-centered approaches in clinical practice.
