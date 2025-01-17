@@ -3,7 +3,7 @@ title: "Contact"
 permalink: "/contribute"
 ---
 
-<form action="https://formspree.io/f/{{site.formspree}}" method="POST">    
+<form action="https://formsubmit.co/{{site.email}}" method="POST">    
 <p class="mb-4">For manuscript submission, please submit a request using the contact form below. We will reply as soon as possible!</p>
 <div class="form-group row">
 <div class="col-md-6">
