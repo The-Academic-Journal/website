@@ -12,6 +12,8 @@ mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a
 include: ["_pages"]
 permalink: /:title/
 
+url: 'https://speechpsychology.com'
+
 # Plugins
 plugins: 
   - jekyll-feed
