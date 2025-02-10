@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /drafts/
+Allow: /
+
+Sitemap: https://speechpsychology.com/sitemap.xml
