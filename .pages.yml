@@ -52,27 +52,6 @@ content:
       - { name: permalink, label: Permalink, type: string, required: true }
       - { name: body, label: Content, type: rich-text }
 
-  - name: config
-    label: Site Configuration
-    type: file
-    path: _config.yml
-    view:
-      fields: [ title, description ]
-      primary: title
-    fields:
-      - { name: title, label: Site Title, type: string, required: true }
-      - { name: description, label: Site Description, type: string, required: true }
-      - { name: baseurl, label: Base URL, type: string }
-      - { name: url, label: Site URL, type: string, required: true }
-      - { name: author, label: Author, type: string }
-      - { name: email, label: Email, type: string }
-      - { name: twitter_username, label: Twitter Username, type: string }
-      - { name: github_username, label: GitHub Username, type: string }
-      - { name: markdown, label: Markdown Processor, type: string, default: kramdown }
-      - { name: highlighter, label: Code Highlighter, type: string, default: rouge }
-      - { name: theme, label: Theme, type: string }
-
-
 # Editor configuration
 editor:
   preview: true
