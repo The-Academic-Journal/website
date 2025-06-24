@@ -52,22 +52,6 @@ content:
       - { name: permalink, label: Permalink, type: string, required: true }
       - { name: body, label: Content, type: rich-text }
 
-  - name: layouts
-    label: Layouts
-    type: collection
-    path: _layouts
-    filename: "{{primary}}.html"
-    view:
-      fields: [ title ]
-      primary: title
-      sort: [ title ]
-      default:
-        sort: title
-        order: asc
-    fields:
-      - { name: title, label: Layout Name, type: string, required: true }
-      - { name: body, label: HTML Content, type: code, options: { language: html } }
-
   - name: config
     label: Site Configuration
     type: file
