@@ -1,0 +1,170 @@
+settings:
+  name: Speech Journal
+  description: Content management for developmental psychology articles
+  url: https://speechpsychology.com/
+  locale: en
+
+media:
+  input: assets/images
+  output: assets/images
+
+collections:
+  posts:
+    type: folder
+    label: Blog Posts
+    folder: _posts/2024
+    extension: md
+    format: frontmatter
+    create: true
+    delete: true
+    fields:
+      - label: Layout
+        name: layout
+        widget: hidden
+        default: post
+      - label: Title
+        name: title
+        widget: string
+        required: true
+        hint: The main title of your article
+      - label: Author
+        name: author
+        widget: list
+        required: true
+        default: [shivani]
+        hint: List of authors (can add multiple)
+      - label: Categories
+        name: categories
+        widget: list
+        required: false
+        hint: Categories for organizing posts
+      - label: Tags
+        name: tags
+        widget: list
+        required: false
+        hint: Tags for better searchability
+      - label: Download
+        name: download
+        widget: boolean
+        default: true
+        hint: Enable download option for this post
+      - label: Path
+        name: path
+        widget: string
+        required: false
+        hint: Custom path for the post
+      - label: Open Access
+        name: open_access
+        widget: boolean
+        default: true
+        hint: Mark as open access content
+      - label: Abstract
+        name: abstract
+        widget: text
+        required: true
+        hint: A brief summary of the article content
+      - label: Publication Date
+        name: date
+        widget: datetime
+        format: YYYY-MM-DD
+        required: true
+      - label: Body
+        name: body
+        widget: markdown
+        required: true
+        hint: The main content of your article
+
+  pages:
+    type: files
+    label: Site Pages
+    files:
+      - label: About Page
+        name: about
+        file: about.md
+        fields:
+          - label: Layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: Title
+            name: title
+            widget: string
+            default: About
+          - label: Permalink
+            name: permalink
+            widget: string
+            default: /about/
+          - label: Content
+            name: body
+            widget: markdown
+      - label: Home Page
+        name: index
+        file: index.md
+        fields:
+          - label: Layout
+            name: layout
+            widget: hidden
+            default: home
+          - label: Title
+            name: title
+            widget: string
+            default: Home
+          - label: Content
+            name: body
+            widget: markdown
+
+  config:
+    type: files
+    label: Site Configuration
+    files:
+      - label: Site Config
+        name: config
+        file: _config.yml
+        fields:
+          - label: Site Title
+            name: title
+            widget: string
+          - label: Site Description
+            name: description
+            widget: text
+          - label: Base URL
+            name: baseurl
+            widget: string
+            required: false
+          - label: Site URL
+            name: url
+            widget: string
+          - label: Author Name
+            name: author
+            widget: string
+          - label: Email
+            name: email
+            widget: string
+            required: false
+          - label: Social Links
+            name: social
+            widget: object
+            fields:
+              - label: Twitter
+                name: twitter
+                widget: string
+                required: false
+              - label: GitHub
+                name: github
+                widget: string
+                required: false
+              - label: LinkedIn
+                name: linkedin
+                widget: string
+                required: false
+
+# Editor configuration
+editor:
+  preview: true
+
+# Authentication (choose one method)
+auth:
+  # For GitHub authentication
+  github:
+    repo: The-Academic-Journal/website
+    branch: main
